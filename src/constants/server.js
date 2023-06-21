@@ -1,6 +1,6 @@
 const PAYMENT_SERVER_URL = process.env.NODE_ENV === 'Production'
-? 'https://demo.akadigital.net/'
-: 'http://localhost:8080/' ;
+? 'http://myapidomain.com/'
+: 'http://localhost:5000/' ;
 
 export default PAYMENT_SERVER_URL;
 
