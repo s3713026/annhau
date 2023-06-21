@@ -75,7 +75,7 @@ const MenuItems = ({
                             }
                         }}>
                             <div className={className}>
-                                <a href="javascript:void(0);" className="classic_btn">{title}</a>
+                                <a href="/#" className="classic_btn">{title}</a>
                                 <div className="overlay">
                                     <h3>{header}</h3>
                                     <p>{shortDescription}</p>
