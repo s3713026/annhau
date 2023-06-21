@@ -19,7 +19,7 @@ class SideNavigator extends Component {
         return (
             <div className={status}>
                  <a 
-                    href="#" 
+                    href="javascript:void(0);" 
                     className="close-side"
                     onClick={this.closeNav()}>
                     <i className="fa fa-times"></i>
